@@ -1,0 +1,16 @@
+# Python 3.12.x
+#
+# Install into a clean virtual environment:
+#   python3 -m venv venv
+#   source venv/bin/activate        # Windows: venv\Scripts\activate
+#   pip install -r requirements.txt
+#
+# Only three third-party packages are used. sympy provides the primality
+# test (isprime) used for elements above the deterministic Miller-Rabin
+# range; numpy and matplotlib are used only by the figure scripts.
+# The verification scripts (Section-6.1, 6.3, 6.4, Remark-4.6) use the
+# standard library alone.
+
+numpy==2.4.4
+matplotlib==3.10.8
+sympy==1.14.0
